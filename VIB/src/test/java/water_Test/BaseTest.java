@@ -22,12 +22,12 @@ import java.time.Duration;
             webDriver = new ChromeDriver();
             webDriver.manage().window().maximize();
             webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
-            webDriverWait = new WebDriverWait(webDriver, Duration.ofSeconds(timeOut));
+            //webDriverWait = new WebDriverWait(webDriver, Duration.ofSeconds(timeOut));
             //ImplicitWait - Which applied for all Element
             //SHOUD NOT use both ImplicitWait and ExplicitWait
           //  webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
-            webDriver.navigate().to("https://appay-rc.cloudcms.vn/baokim/payment?serviceType=water&accessToken=419edc8d7792104be090347a9a5a86f68ef3af73");
+            webDriver.navigate().to("https://appay-rc.cloudcms.vn/baokim/payment?serviceType=water&accessToken=ea41703b256f78c3afb094033a2bd4c6276c054d");
         }
 
         @AfterMethod

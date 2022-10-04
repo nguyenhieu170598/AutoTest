@@ -1,9 +1,8 @@
 package ins_Test;
 
-import Ins_Umployment.Payment;
-import Ins_Umployment.otp;
-import Ins_Umployment.success_Payment;
-import org.openqa.selenium.WebDriver;
+import General.Payment;
+import General.otp;
+import General.success_Payment;
 import Ins_Umployment.umPloyment;
 import org.testng.annotations.Test;
 
