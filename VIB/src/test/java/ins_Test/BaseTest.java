@@ -23,7 +23,7 @@ public class BaseTest {
         //SHOUD NOT use both ImplicitWait and ExplicitWait
 //        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
-        webDriver.navigate().to("https://appay-rc.cloudcms.vn/insurance/unemployment?accessToken=1bd50af0ecf89f22600d50ca92ce3010efcb37f8");
+        webDriver.navigate().to("https://appay-rc.cloudcms.vn/insurance/unemployment?accessToken=20c5dd9f4584c781ca27cb67e383f7fceae28961");
     }
         //1bd50af0ecf89f22600d50ca92ce3010efcb37f8
         //c9149dbb5709bccc39aacedeab1f6f99c45af194

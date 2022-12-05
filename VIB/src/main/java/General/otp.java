@@ -16,9 +16,9 @@ public class otp extends BasePage {
     private WebElement otp_Confirm;
 
     public void gotootp() throws InterruptedException {
-       // Thread.sleep(2000);
+        Thread.sleep(1000);
         otp_Text.sendKeys("1","2","3","4");
-        //Thread.sleep(5000);
+        Thread.sleep(5000);
         //Thread.sleep(2000);
         //otp_Confirm.click();
         //Thread.sleep(2000);

@@ -20,9 +20,9 @@ public class Payment extends BasePage {
 
     public void gotoPayment() throws InterruptedException {
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         check_Confirm.click();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         btContinue.click();
     }
 }

@@ -23,7 +23,7 @@ public class BaseTest {
         //ImplicitWait - Which applied for all Element
         //SHOUD NOT use both ImplicitWait and ExplicitWait
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
-        webDriver.navigate().to("https://appay-rc.cloudcms.vn/mobile_card?accessToken=ea41703b256f78c3afb094033a2bd4c6276c054d");
+        webDriver.navigate().to("https://appay-rc.cloudcms.vn/mobile_card?accessToken=20c5dd9f4584c781ca27cb67e383f7fceae28961");
     }
 
     @AfterMethod
