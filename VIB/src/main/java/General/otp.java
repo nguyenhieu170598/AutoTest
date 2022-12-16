@@ -9,9 +9,11 @@ public class otp extends BasePage {
     public otp(WebDriver webDriver) {
         super(webDriver);
     }
+    //Trường nhập OTP
     @FindBy(xpath="//input[@type='tel']")
     private WebElement otp_Text;
 
+    //Trươn nhấn nút xác nhận
     @FindBy(xpath="//button[@type='button']")
     private WebElement otp_Confirm;
 

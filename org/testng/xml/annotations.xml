@@ -1,0 +1,7 @@
+<root>
+    <item name='org.testng.xml.IFileParser T parse(java.lang.String, java.io.InputStream, boolean)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+</root>

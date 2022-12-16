@@ -7,6 +7,8 @@ import Ins_Umployment.*;
 import org.testng.annotations.Test;
 
 public class ins_Umployment_Test extends BaseTest {
+
+    //Test case gói 4
     @Test
     public void umploymentTest_4() throws InterruptedException {
        umPloyment_4 um = new umPloyment_4(webDriver);
@@ -22,6 +24,7 @@ public class ins_Umployment_Test extends BaseTest {
        o.gotootp();
     }
 
+    //Test case gói 1
     @Test
     public void umploymentTest_1() throws InterruptedException {
         umPloyment_1 um = new umPloyment_1(webDriver);
@@ -37,6 +40,7 @@ public class ins_Umployment_Test extends BaseTest {
         o.gotootp();
     }
 
+    //Test case gói 2
     @Test
     public void umploymentTest_2() throws InterruptedException {
         umPloyment_2 um = new umPloyment_2(webDriver);
@@ -51,6 +55,8 @@ public class ins_Umployment_Test extends BaseTest {
         otp o = new otp(webDriver);
         o.gotootp();
     }
+
+    //Test case gói 3
     @Test
     public void umploymentTest_3() throws InterruptedException {
         umPloyment_3 um = new umPloyment_3(webDriver);
@@ -65,6 +71,8 @@ public class ins_Umployment_Test extends BaseTest {
         otp o = new otp(webDriver);
         o.gotootp();
     }
+
+    //Test case gói 5
     @Test
     public void umploymentTest_5() throws InterruptedException {
         umPloyment_5 um = new umPloyment_5(webDriver);

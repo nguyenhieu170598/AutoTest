@@ -21,6 +21,7 @@ public class add_Card_Vina extends BasePage{
 
     @FindBy(name = "email")
     private WebElement chkEmail;
+
     public void goToInfo_Card() throws InterruptedException {
         chkVina.click();
         Thread.sleep(2000);

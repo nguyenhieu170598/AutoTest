@@ -10,9 +10,11 @@ public class Payment extends BasePage {
         super(webDriver);
     }
 
+    //Trường nhấn nút check xác nhận
     @FindBy(id="check_comfirm")
     private WebElement check_Confirm;
 
+    //Trường nhấn nút tiếp tục
     @FindBy(xpath="//div[@class='action_payment end_payment']/a[@class='btn-primary']")
     private WebElement btContinue;
 
@@ -20,9 +22,9 @@ public class Payment extends BasePage {
 
     public void gotoPayment() throws InterruptedException {
 
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         check_Confirm.click();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         btContinue.click();
     }
 }

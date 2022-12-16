@@ -9,9 +9,11 @@ public class electric extends BasePage {
     public electric(WebDriver webDriver) {
         super(webDriver);
     }
+    //Trường nhập mã khách hàng
     @FindBy(name = "billCode")
     private WebElement nameCode;
 
+    //Trường nhấn nút tra cứu hợp đồng
     @FindBy(xpath = "//input[@class='btn-success']")
     private WebElement butSuccess;
 
