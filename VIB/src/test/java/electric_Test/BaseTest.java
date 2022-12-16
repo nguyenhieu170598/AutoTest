@@ -39,7 +39,7 @@ public class BaseTest {
         //SHOUD NOT use both ImplicitWait and ExplicitWait
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
-        HttpUrl.Builder urlBuilder = HttpUrl.parse("https://appay-rc.cloudcms.vn/Test_nt/get_only_session_by/0938058692")
+        HttpUrl.Builder urlBuilder = HttpUrl.parse("https://appay-rc.cloudcms.vn/Test_nt/get_only_session_by/0948339596")
                 .newBuilder();
         String url = urlBuilder.build().toString();
         Request request = new Request.Builder().url(url).build();
