@@ -15,6 +15,7 @@ package electric_Test;
         import okhttp3.Request;
         import okhttp3.RequestBody;
         import okhttp3.Response;
+
 public class BaseTest {
     protected WebDriver webDriver;
     private static OkHttpClient client;
@@ -34,7 +35,6 @@ public class BaseTest {
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         //webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
-
         //ImplicitWait - Which applied for all Element
         //SHOUD NOT use both ImplicitWait and ExplicitWait
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
