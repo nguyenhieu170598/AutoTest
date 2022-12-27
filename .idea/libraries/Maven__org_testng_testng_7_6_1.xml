@@ -1,8 +1,5 @@
 <component name="libraryTable">
   <library name="Maven: org.testng:testng:7.6.1">
-    <ANNOTATIONS>
-      <root url="file://$PROJECT_DIR$" />
-    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.6.1/testng-7.6.1.jar!/" />
     </CLASSES>
